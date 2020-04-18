@@ -1,0 +1,20 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "cb": "node src/callback/index.js",
+    "cb:challenge": "node src/callback/challenge.js",
+    "p": "node src/promesas/index.js",
+    "p:challenge": "node src/promesas/challenge.js",
+    "a": "node src/async/index.js",
+    "a:challenge": "node src/async/challenge.js"
+  },
+  "keywords": [],
+  "author": "Hugo Ortiz <hugo.er.ortiz@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
